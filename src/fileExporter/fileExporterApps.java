@@ -1,8 +1,8 @@
-package worker;
+package fileExporter;
 
 import export.Iexporter;
 
-public abstract class worker {
+public abstract class fileExporterApps {
     Iexporter exporter;
     public void startExporting() {
         exporter.export();
